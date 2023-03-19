@@ -5,7 +5,7 @@ import { fonts } from "../../theme/fonts";
 const statusTextBase: any = {
   fontSize: 14,
   lineHeight: 24,
-  fontWeight: 'bold',
+  fontWeight: '700',
   fontFamily: fonts.inter[700]
 }
 
