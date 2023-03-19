@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, TextInput, TouchableOpacity } from "react-native";
+import { View, TextInput, TouchableOpacity, Alert } from "react-native";
 
 import { colors } from "../../theme/colors";
 import PlusSvg from '../../assets/plus.svg'
@@ -14,6 +14,9 @@ export function Form({ onAdd }: FormProps) {
   const [title, setTitle] = useState<string>('')
 
   function handleAdd(){
+    if(title.length < 3) {
+      return Alert.alert('Título inválido', 'O título precisa ter no mínimo 3 letras para ser adicionado')
+    }
     onAdd(title)
     setTitle('')
   }
