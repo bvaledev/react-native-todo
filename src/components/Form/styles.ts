@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
     gap: 8,
   },
   textInput: {
+    flex: 1,
     flexGrow: 1,
     height: 54,
     backgroundColor: colors.gray[500],
