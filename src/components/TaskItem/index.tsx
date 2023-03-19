@@ -5,8 +5,9 @@ import UncheckedSvg from '../../assets/check_unchecked.svg'
 import CheckedSvg from '../../assets/check_checked.svg'
 import TrashSvg from '../../assets/trash.svg'
 
-import { styles } from './styles'
 import { Todo } from '../../models/todo';
+
+import { styles } from './styles'
 
 type Props = {
   todo: Todo

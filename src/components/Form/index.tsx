@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { View, TextInput, TouchableOpacity } from "react-native";
 
-import { styles } from './styles'
 import { colors } from "../../theme/colors";
-
 import PlusSvg from '../../assets/plus.svg'
+
+import { styles } from './styles'
 
 type FormProps = {
   onAdd: (title: string) => void

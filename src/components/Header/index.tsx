@@ -1,7 +1,8 @@
 import { View } from "react-native";
 
-import { styles } from './styles'
 import Logo from '../../assets/logo.svg'
+
+import { styles } from './styles'
 
 export function Header(){
   return (
