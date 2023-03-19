@@ -1,10 +1,12 @@
 import { StyleSheet } from "react-native";
 import { colors } from '../../theme/colors'
+import { fonts } from "../../theme/fonts";
 
 const statusTextBase: any = {
-  fontWeight: 'bold',
   fontSize: 14,
-  lineHeight: 24
+  lineHeight: 24,
+  fontWeight: 'bold',
+  fontFamily: fonts.inter[700]
 }
 
 export const styles = StyleSheet.create({
@@ -41,6 +43,7 @@ export const styles = StyleSheet.create({
     color: colors.gray[200],
     fontSize: 12,
     lineHeight: 22,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontFamily: fonts.inter[700]
   },
 })

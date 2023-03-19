@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { colors } from "../../theme/colors";
+import { fonts } from "../../theme/fonts";
 
 export const styles = StyleSheet.create({
   form: {
@@ -15,7 +16,8 @@ export const styles = StyleSheet.create({
     padding: 16,
     borderRadius: 6,
     fontSize: 16,
-    color: colors.gray[100]
+    color: colors.gray[100],
+    fontFamily: fonts.inter[400]
   },
   button: {
     backgroundColor: colors.primary,
